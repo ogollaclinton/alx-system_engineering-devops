@@ -10,3 +10,4 @@ contains a script that deletes file betty in /tmp/my_first_directory directory
 contains a script that deletes /tmp/my_first_directory
 contains a script that changes the working directory to the previous one
 contains a script that lists all the content of the directories; /alx-system_engineering-devops/0x00-shell_basics, /alx-system_engineering-devops and /boot
+contains a script that prints the type of file
