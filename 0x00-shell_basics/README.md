@@ -5,3 +5,4 @@ contains a script that lists contents of the directory in long format
 contains a script that lists all the contents of a directory including hidden files in long format
 contains a script that creates a directory inside /tmp directory
 contains a script that moves a file betty in /tmp to /tmp/my_first_directory
+cintains a file that deletes file betty in /tmp/my_first_directory directory
