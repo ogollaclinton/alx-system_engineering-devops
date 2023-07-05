@@ -7,3 +7,4 @@ contains a script that creates a directory inside /tmp directory
 contains a script that moves a file betty in /tmp to /tmp/my_first_directory
 contains a script that deletes file betty in /tmp/my_first_directory directory
 contains a script that deletes /tmp/my_first_directory
+contains a script that changes the working directory to the previous one
