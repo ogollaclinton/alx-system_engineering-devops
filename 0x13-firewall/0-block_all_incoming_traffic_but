@@ -1,10 +1,17 @@
-sudo ufw allow 22/tcp   # Allow SSH
-sudo ufw allow 443/tcp  # Allow HTTPS
-sudo ufw allow 80/tcp   # Allow HTTP
+sudo apt-get update
+
+sudo apt-get install ufw
+
+#enable firewall
+sudo ufw enable
+
+
+#allow ports
+sudo ufw allow 22   
+sudo ufw allow 443 
+sudo ufw allow 80  
 
 #allow outgoing deny incoming
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
-#enable firewall
-sudo ufw enable
