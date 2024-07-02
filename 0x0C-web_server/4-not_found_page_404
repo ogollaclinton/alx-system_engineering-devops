@@ -33,6 +33,9 @@ sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUl
 echo "Ceci n'est pas une page" >> /var/www/html/error_404.html
 sudo sed -i '25i\	error_page 404 /error_404.html;' /etc/nginx/sites-available/default
 
+# Modify the location block to serve the custom 404 page correctly
+sudo sed -i '26i\        location = /error_404.html { root /var/www/html; internal; }' /etc/nginx/sites-available/default
+
 # Restarting nginx
 sudo service nginx restart
 
